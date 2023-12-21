@@ -1,0 +1,47 @@
+.flexbox{
+  display: flex;
+  align-items: center;
+  justify-content: centers;
+  flex-direction: column;
+
+  height: 600px;
+}
+.heading-f{
+  text-align: center;
+  font-size: 60px;
+  font-weight: bolder;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  color: white;
+  
+}
+.list{
+  background-color: rgb(65, 64, 64);
+  font-size: 20px;
+  width: 1000px;
+  padding: 30px;
+  color: white;
+  margin-bottom: 10px;
+  transition: 0.15s;
+  cursor: pointer;
+}
+.list:hover{
+  background-color: ;
+  background-color: rgb(91, 91, 91);
+}
+.list-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.email-button-container-fifth{
+  display: flex; 
+  flex-direction: row;
+  margin-top: 5px;
+  padding-bottom: 70px;
+  justify-content: center;
+  align-items: center;
+  
+  
+
+}

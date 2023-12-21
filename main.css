@@ -1,0 +1,149 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family:sans-serif;
+}
+.main{
+  background-image:url('images/bg.jpg');
+  background-position:center center;
+  background-size: max(1200px,100vw);
+  background-repeat: no-repeat;
+  height: 94vh;
+
+  position: relative;
+}
+.language{
+  border-radius: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 20px;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  cursor: pointer;
+
+}
+.sign{
+  background-color: rgb(229, 9, 20) ;
+  border: none;
+  border-radius: 5px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 12px;
+  padding-right: 12px;
+  color: white;
+  font-size: 15px;
+  margin-left: 20px;
+  margin-right: 30px;
+  cursor: pointer;
+}
+ .box{
+  height: 94vh;
+  width: 100%;
+  opacity: 0.74;
+  background-color: black;
+  position: absolute;
+  top: 0;
+
+}
+nav{
+  
+  display: flex;
+  justify-items: center;
+  display: flex;
+  align-items: center;
+  max-width: 80vw;
+  margin: auto;
+  justify-content: space-between;
+  height: 62px;
+ 
+  
+}
+.logo{
+  width: 180px;
+  position: relative;
+  z-index: 200;
+  margin-top: 30px;
+  cursor: pointer;
+}
+.flex{
+  position: relative;
+  z-index: 200;
+  margin-top: 20px;
+}
+.box{
+
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+  
+  
+  
+}
+.main-discription{
+  color: white; 
+  position: relative;
+   height:calc(100% - 62px);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   display: flex;
+   flex-direction: column;
+}
+.p1{
+  font-size: 48px; font-weight: 900;margin-bottom: 5px;
+}
+.p2{
+  font-size: 24px; margin-bottom: 10px;
+}
+.p3{
+  font-size: 20px; margin: 16px 0px 0px ;
+}
+.email-button-container{
+  display: flex; 
+  flex-direction: row;
+  margin-top: 5px;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+
+}
+.emailadress-text{
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 350px;
+  border-radius: 5px;
+  border: solid;
+  border-color: grey;
+  border-width: 1px;
+  font-size: 18px;
+  background: rgba(23, 23, 23, 0.2);
+
+}
+.getstarted-button{
+  margin-left: 10px;
+          background: rgb(229, 9, 20);
+          color: white;
+          padding-left: 30px;
+          padding-right: 30px;
+          padding-top: 13px;
+          padding-bottom: 13px;
+          
+          border-radius: 5px;
+          border: none;
+          color: white;
+          text-align: center;
+          
+          font-size: 25px;
+          cursor: pointer;
+
+}
+.sepration{
+  height: 11px;
+  background-color: grey;
+}
+
